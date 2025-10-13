@@ -7,7 +7,7 @@ import {
   ContactsPage,
 } from "../../pages";
 import { AppPage } from "../../shared";
-import { ROUTES } from "../../shared/enum";
+import { ROUTES } from "../../shared";
 
 // export const router = createBrowserRouter([
 //   {
