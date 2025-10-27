@@ -5,7 +5,8 @@ import * as z from "zod";
 import { contactFormSchema } from "./hooks";
 import { ModalOk } from "../../../../shared";
 import { useState } from "react";
-import { type Contact } from "../../../../shared/types";
+import { type Contact } from "../../../../shared";
+
 
 const Item = Form.Item;
 

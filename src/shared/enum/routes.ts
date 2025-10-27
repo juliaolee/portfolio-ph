@@ -5,4 +5,5 @@ export enum ROUTES {
   BLOG = "blog",
   ABOUT = "about",
   CONTACTS = "contacts",
+  AUTH = "auth",
 }

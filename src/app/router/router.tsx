@@ -5,6 +5,7 @@ import {
   AboutPage,
   BlogPage,
   ContactsPage,
+  AuthPage,
 } from "../../pages";
 import { AppPage } from "../../shared";
 import { ROUTES } from "../../shared";
@@ -34,6 +35,7 @@ export const router = createBrowserRouter([
   { path: ROUTES.BLOG, element: <BlogPage /> },
   { path: ROUTES.ABOUT, element: <AboutPage /> },
   { path: ROUTES.CONTACTS, element: <ContactsPage /> },
+  { path: ROUTES.AUTH, element: <AuthPage /> },
   {
     path: "*",
     element: <Navigate to={ROUTES.ROOT} replace />,
