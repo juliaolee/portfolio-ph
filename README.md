@@ -10,7 +10,8 @@
 ## Технологии
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://react.dev/)
-- [Redux](https://redux.js.org/)
+- [Firebase](https://firebase.google.com)
+
 
 ## Использование
  Установка зависимостей
