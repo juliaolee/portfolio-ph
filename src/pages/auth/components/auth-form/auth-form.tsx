@@ -7,6 +7,7 @@ import { type Auth } from "../../../../shared";
 import { auth } from "../../../../firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 
 const Item = Form.Item;
 
@@ -15,6 +16,7 @@ export const AuthForm = () => {
 
   const [form] = Form.useForm();
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   const {
     handleSubmit,
@@ -36,6 +38,8 @@ export const AuthForm = () => {
       );
 
       const user = userCredential.user;
+
+      navigate("/admin");
     } catch (error: any) {
       console.error("Firebase auth error:", error);
 
