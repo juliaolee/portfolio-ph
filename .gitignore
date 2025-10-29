@@ -11,8 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-public/images/*
-src/firebase/*
+
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +23,5 @@ src/firebase/*
 *.njsproj
 *.sln
 *.sw?
+/images/
+/firebase/
